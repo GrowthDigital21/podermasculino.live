@@ -35,7 +35,10 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
-            <p><span style="font-weight: normal;">Você e alguns homens próximos de <b style="color:#F90000"><span id="locationJS"></span></b> foram selecionados para participar deste programa.</span></h3>
+            
+            <!--Localizacao do lead na pagina 
+            <p><span style="font-weight: normal;">Você e alguns homens próximos de <b style="color:#F90000"><span id="locationJS"></span></b> foram selecionados para participar deste programa.</span></h3> -->
+
             <!-- Imagem Ultrasecreto -->
             <img class="img-fluid" src="./assets/img/ultrasecreto-vermelho.png">
 
@@ -64,12 +67,13 @@
     <script type="text/javascript">
       setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 1525000); // temporização da Call to Action (em milissegundos)
     </script>
-    
+
+    <!-- Localizacao na pagina 
     <span id="locationJS"></span>
     <script>$.get("https://ssl.geoplugin.net/json.gp?k=36a168c612a12e85", function (resp) {
          //var data = JSON.parse(resp);
         $("#locationJS").html(resp.geoplugin_city);
-    });</script>
+    });</script>-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
